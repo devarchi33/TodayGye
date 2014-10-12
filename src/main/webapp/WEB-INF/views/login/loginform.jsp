@@ -49,7 +49,7 @@
 				<ul>
 					<li><input class="btn btn-primary btn-lg" type="submit"
 						value="로그인" /></li>
-					<li><a class="btn btn-primary btn-lg" href="/michiget/join">회원가입</a></li>
+					<li><a class="btn btn-primary btn-lg" href="/todaygye">홈으로</a></li>
 				</ul>
 			</form>
 		</div>
