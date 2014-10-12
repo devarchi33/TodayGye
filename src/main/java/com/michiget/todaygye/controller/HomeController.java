@@ -8,10 +8,8 @@ import org.springframework.ui.Model;
 @Controller
 public interface HomeController {
 
-	/*
-	 * test¿ë public String test(Locale locale, Model model) throws Exception;
-	 */
-
+	public String test(Locale locale, Model model) throws Exception;
+	
 	// login page
 	public String loginForm() throws Exception;
 
