@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap
+	PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="UserInfo">
+	<typeAlias alias="map" type="java.util.Map" />
+	<typeAlias alias="str" type="java.lang.String" />
+	<typeAlias alias="int" type="java.lang.Integer" />
+	<typeAlias alias="userInfo" type="com.michiget.todaygye.beans.UserInfo" />
+
+	<select id="getLoginId" resultClass="userInfo" parameterClass="str">
+		select ID,PASS,NICK from MEMBER where ID = #id#
+	</select>	
+
+</sqlMap>

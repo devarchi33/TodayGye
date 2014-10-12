@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap
+	PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="UserInfo">
+	<typeAlias alias="map" type="java.util.Map" />
+	<typeAlias alias="str" type="java.lang.String" />
+	<typeAlias alias="int" type="java.lang.Integer" />
+	<typeAlias alias="userInfo" type="com.michiget.beans.UserInfo" />
+	<typeAlias alias="board" type="com.michiget.beans.Board" />
+
+	<select id="getMemberList" resultClass="userInfo">
+		select * from MEMBER order by IDX asc
+	</select>
+
+	<select id="getBoardList" resultClass="board">
+		select * from board2
+	</select>
+
+	<insert id="insertMember" parameterClass="userInfo"> 
+	<![CDATA[
+		INSERT INTO MEMBER
+			 (IDX, ID, PASS, NICK, EMAIL1, EMAIL2, GENDER, REGDATE, REGIP)
+		 VALUES 
+			 (member_seq.nextval, #id#, #pass#, #nick#, #email1#, #email2#, #gender#, sysdate, #regIp#)
+	]]>
+	</insert>
+
+	<insert id="insertBoard" parameterClass="board"> 
+	<![CDATA[
+		INSERT INTO board2
+			 
+		 VALUES 
+			 (board_seq.nextval, #title#, #writer#, #regdate#, 1, #content#)
+	]]>
+	</insert>
+	
+	<delete id="contentDelete" parameterClass="int">
+		delete from board2 where idx = #idx#
+	</delete>
+
+	<select id="getLoginId" resultClass="userInfo" parameterClass="str">
+		select ID,PASS,NICK from MEMBER where ID = #id#
+	</select>
+	
+	<select id="getContent" resultClass="board" parameterClass="int">
+		select * from scott.board2 where scott.board2."idx" = #idx#
+	</select>
+	
+
+</sqlMap>
+
+----------------------------------------------------------------------------------------------------------------------------------
+69¹ø
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap
+	PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="UserInfo">
+	<typeAlias alias="map" type="java.util.Map" />
+	<typeAlias alias="str" type="java.lang.String" />
+	<typeAlias alias="int" type="java.lang.Integer" />
+	<typeAlias alias="userInfo" type="com.michiget.beans.UserInfo" />
+	<typeAlias alias="board" type="com.michiget.beans.Board" />
+
+	<select id="getMemberList" resultClass="userInfo">
+		select * from MEMBER order by IDX asc
+	</select>
+
+	<select id="getBoardList" resultClass="board">
+		select * from michiget.board2 order by michiget.board2."idx" asc
+	</select>
+
+	<insert id="insertMember" parameterClass="userInfo"> 
+	<![CDATA[
+		INSERT INTO MEMBER
+			 (IDX, ID, PASS, NICK, EMAIL1, EMAIL2, GENDER, REGDATE, REGIP)
+		 VALUES 
+			 (member_seq.nextval, #id#, #pass#, #nick#, #email1#, #email2#, #gender#, sysdate, #regIp#)
+	]]>
+	</insert>
+
+	<insert id="insertBoard" parameterClass="board"> 
+	<![CDATA[
+		INSERT INTO michiget.board2
+			 (michiget.board2."idx", michiget.board2."title", michiget.board2."writer", michiget.board2."regdate", michiget.board2."count", michiget.board2."content")
+		 VALUES 
+			 (board_seq.nextval, #title#, #writer#, #regdate#, 1, #content#)
+	]]>
+	</insert>
+
+	<select id="getLoginId" resultClass="userInfo" parameterClass="str">
+		select ID,PASS,NICK from MEMBER where ID = #id#
+	</select>
+	
+	<select id="getContent" resultClass="board" parameterClass="str">
+		select * from michiget.board2 where michiget.board2."idx" = #idx#
+	</select>
+
+</sqlMap>
+

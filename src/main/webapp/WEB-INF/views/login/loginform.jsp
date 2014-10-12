@@ -22,7 +22,7 @@
 		<div class="container">
 			<h1>TodayGye</h1>
 			<p>This is a login page.</p>
-			<form action="/michiget/login" method="POST"
+			<form action="/todaygye/login" method="POST"
 				onsubmit="return formCheck();">
 				<table>
 
