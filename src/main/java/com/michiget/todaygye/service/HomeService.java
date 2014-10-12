@@ -19,19 +19,27 @@ public class HomeService implements HomeController {
 	private static final Logger logger = LoggerFactory
 			.getLogger(HomeController.class);
 
+	/*
+	 * @Override
+	 * 
+	 * @RequestMapping(value = "/", method = RequestMethod.GET) public String
+	 * test(Locale locale, Model model) {
+	 * logger.info("Welcome home! The client locale is {}.", locale);
+	 * 
+	 * Date date = new Date(); DateFormat dateFormat =
+	 * DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+	 * 
+	 * String formattedDate = dateFormat.format(date);
+	 * 
+	 * model.addAttribute("serverTime", formattedDate);
+	 * 
+	 * return "test.tiles"; }
+	 */
+
 	@Override
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String test(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG,
-				DateFormat.LONG, locale);
-
-		String formattedDate = dateFormat.format(date);
-
-		model.addAttribute("serverTime", formattedDate);
-
-		return "test.tiles";
+	public String loginForm() throws Exception {
+		logger.info("loginForm page.");
+		return "login/loginform.tiles";
 	}
 }

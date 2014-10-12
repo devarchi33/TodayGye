@@ -7,7 +7,12 @@ import org.springframework.ui.Model;
 
 @Controller
 public interface HomeController {
-	
-	public String test(Locale locale, Model model) throws Exception;
+
+	/*
+	 * test¿ë public String test(Locale locale, Model model) throws Exception;
+	 */
+
+	// login page
+	public String loginForm() throws Exception;
 
 }
