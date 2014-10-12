@@ -68,4 +68,11 @@ public class LoginService implements LoginController {
 		
 		return mav;
 	}
+	
+	@RequestMapping("/logout")
+	public ModelAndView logout() throws Exception {
+		logger.info("logout page");
+
+		return new ModelAndView("login/logout.tiles");
+	}
 }
