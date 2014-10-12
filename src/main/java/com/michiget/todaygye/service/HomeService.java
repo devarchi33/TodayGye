@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.michiget.todaygye.controller.HomeController;
 
 @Service
-public class HomeService implements HomeController{
+public class HomeService implements HomeController {
 
 	private static final Logger logger = LoggerFactory
 			.getLogger(HomeController.class);
-	
+
 	@Override
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	public String test(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 
 		Date date = new Date();
@@ -32,6 +32,6 @@ public class HomeService implements HomeController{
 
 		model.addAttribute("serverTime", formattedDate);
 
-		return "layout-tiles";
+		return "test.tiles";
 	}
 }
