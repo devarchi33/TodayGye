@@ -2,6 +2,7 @@
 <%@ page session="false" %>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="resources/css/reset.css" />
 	<title>Home</title>
 </head>
 <body>
