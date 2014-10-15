@@ -23,7 +23,7 @@
 	<form action="/todaygye/loginform" method="get">
 		<ul>
 			<li><input class="btn btn-primary" type="submit" value="로그인" /></li>
-			<li><a class="btn btn-primary btn-lg" href="/todaygye/joinform">회원가입</a></li>
+			<li><a class="btn btn-primary" href="/todaygye/joinform">회원가입</a></li>
 		</ul>
 	</form>
 </body>

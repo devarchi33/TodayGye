@@ -14,12 +14,12 @@ html {
 }
 body {
   font-family: 'NanumGothicWeb';
-  background: url(../images/bg.png) no-repeat center;
+  /*background: url(../images/bg.png) no-repeat center;*/
 }
 /* /////////////////////////////////////////
 	=#reg
-///////////////////////////////////////// */
-#reg {
+  
+  background: url(../images/bg.png) no-repeat center;	
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,6 +27,14 @@ body {
   min-height: 390px;
   margin-top: -195px;
   margin-left: -250px;
+  border: 1px solid #dcdcdc;
+///////////////////////////////////////// */
+#reg {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 500px;
+  min-height: 390px;
   border: 1px solid #dcdcdc;
   background: #f2f2f2;
   background: -webkit-linear-gradient(90deg, #f2f2f2, #ffffff 2px, #f4f4f4 5px, rgba(255, 255, 255, 0.8) 67%);

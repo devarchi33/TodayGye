@@ -12,14 +12,21 @@
 <meta charset="utf-8" />
 
 <title>TodayGye - JoinForm</title>
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script
+	src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js"></script>
 
+<!-- form css -->
 <link rel="stylesheet" href="resources/joinform/css/style.css" />
 <link
 	href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb"
 	rel="stylesheet" />
 <link href="http://fonts.googleapis.com/css?family=Sansita+One"
 	rel="stylesheet" />
-
+<!-- form javascript -->
 <script src="resources/joinform/js/libs/modernizr.min.js"></script>
 <script src="resources/joinform/js/libs/jquery.min.js"></script>
 <script src="resources/joinform/js/script.js"></script>
@@ -30,7 +37,6 @@
 <!--[if IE 6]><script src="resources/joinform/js/libs/DD_belatedPNG.min.js"></script><script>DD_belatedPNG.fix('input, .png_bg');</script><![endif]-->
 </head>
 <body>
-
 	<div id="reg">
 		<h2 title="회원등록">Registration</h2>
 		<form id="reg_form" action="#" method="post">

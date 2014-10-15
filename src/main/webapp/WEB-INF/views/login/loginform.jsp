@@ -14,7 +14,14 @@
 	src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js"></script>
 <!-- formChech 자바스크립트 -->
 <script type="text/javascript" src="resources/js/formCheck.js"></script>
-
+<!-- form css -->
+<link rel="stylesheet" href="resources/joinform/css/style.css" />
+<link
+	href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb"
+	rel="stylesheet" />
+<link href="http://fonts.googleapis.com/css?family=Sansita+One"
+	rel="stylesheet" />
+	
 <title>TodayGye - loginForm</title>
 </head>
 <body>
