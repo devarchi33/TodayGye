@@ -13,9 +13,9 @@ import com.ibatis.sqlmap.client.SqlMapClient;
 import com.michiget.todaygye.beans.UserInfo;
 
 @Repository
-public class MichigetDao extends SqlMapClientDaoSupport {
+public class LoginDao extends SqlMapClientDaoSupport {
 
-	static Logger logger = LoggerFactory.getLogger(MichigetDao.class);
+	static Logger logger = LoggerFactory.getLogger(LoginDao.class);
 
 	@Resource(name = "sqlMapClient")
 	public void setSuperSqlMapClient(SqlMapClient sqlMapClient) {

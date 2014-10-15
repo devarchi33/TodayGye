@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.michiget.todaygye.beans.UserInfo;
 import com.michiget.todaygye.controller.LoginController;
-import com.michiget.todaygye.model.MichigetDao;
+import com.michiget.todaygye.model.LoginDao;
 
 @Service
 public class LoginService implements LoginController {
@@ -23,7 +23,7 @@ public class LoginService implements LoginController {
 			.getLogger(LoginService.class);
 
 	@Autowired
-	private MichigetDao michigetDao;
+	private LoginDao loginDao;
 
 	@Override
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
@@ -34,7 +34,7 @@ public class LoginService implements LoginController {
 
 		int check_return = 0;
 
-		UserInfo userInfo = michigetDao.getLoginId(id);
+		UserInfo userInfo = loginDao.getLoginId(id);
 		String loginId = userInfo.getId();
 		String loginPass = userInfo.getPass();
 

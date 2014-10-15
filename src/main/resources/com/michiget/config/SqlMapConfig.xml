@@ -5,6 +5,7 @@
   <!-- settings /-->
 
  <!-- Common -->
- <sqlMap resource="com/michiget/config/SqlMap.xml"/>
+ <sqlMap resource="com/michiget/config/SqlMapLogin.xml"/>
+ <sqlMap resource="com/michiget/config/SqlMapInsert.xml"/>
  
 </sqlMapConfig>

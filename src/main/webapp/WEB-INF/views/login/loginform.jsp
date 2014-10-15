@@ -15,7 +15,6 @@
 <!-- formChech 자바스크립트 -->
 <script type="text/javascript" src="resources/js/formCheck.js"></script>
 <!-- form css -->
-<link rel="stylesheet" href="resources/joinform/css/style.css" />
 <link
 	href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb"
 	rel="stylesheet" />
