@@ -13,21 +13,21 @@
 
 <title>TodayGye - JoinForm</title>
 
-<link rel="stylesheet" href="resources/include/css/style.css" />
+<link rel="stylesheet" href="resources/joinform/css/style.css" />
 <link
 	href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb"
 	rel="stylesheet" />
 <link href="http://fonts.googleapis.com/css?family=Sansita+One"
 	rel="stylesheet" />
 
-<script src="resources/include/js/libs/modernizr.min.js"></script>
-<script src="resources/include/js/libs/jquery.min.js"></script>
-<script src="resources/include/js/script.js"></script>
+<script src="resources/joinform/js/libs/modernizr.min.js"></script>
+<script src="resources/joinform/js/libs/jquery.min.js"></script>
+<script src="resources/joinform/js/script.js"></script>
 
 <!-- for IE -->
 <!--[if lte IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<script src="resources/include/js/libs/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})});</script><script src="resources/include/js/libs/webforms2-0.5.4/webforms2.js"></script><![endif]-->
-<!--[if IE 6]><script src="resources/include/js/libs/DD_belatedPNG.min.js"></script><script>DD_belatedPNG.fix('input, .png_bg');</script><![endif]-->
+<script src="resources/joinform/js/libs/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})});</script><script src="resources/joinform/js/libs/webforms2-0.5.4/webforms2.js"></script><![endif]-->
+<!--[if IE 6]><script src="resources/joinform/js/libs/DD_belatedPNG.min.js"></script><script>DD_belatedPNG.fix('input, .png_bg');</script><![endif]-->
 </head>
 <body>
 
