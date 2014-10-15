@@ -21,7 +21,7 @@ public class HomeService implements HomeController {
 
 	@Override
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String test(Locale locale, Model model) {
+	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 
 		Date date = new Date();
@@ -40,5 +40,12 @@ public class HomeService implements HomeController {
 	public String loginForm() throws Exception {
 		logger.info("loginForm page.");
 		return "login/loginform.tiles";
+	}
+
+	@Override
+	@RequestMapping(value = "/joinform", method = RequestMethod.GET)
+	public String joinForm() throws Exception {
+		logger.info("joinForm page.");
+		return "join/joinform.tiles";
 	}
 }

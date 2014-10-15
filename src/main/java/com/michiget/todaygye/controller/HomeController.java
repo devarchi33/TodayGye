@@ -8,9 +8,11 @@ import org.springframework.ui.Model;
 @Controller
 public interface HomeController {
 
-	public String test(Locale locale, Model model) throws Exception;
+	public String home(Locale locale, Model model) throws Exception;
 	
 	// login page
 	public String loginForm() throws Exception;
+	// joinpage
+	public String joinForm() throws Exception;
 
 }
