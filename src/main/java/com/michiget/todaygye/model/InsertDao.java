@@ -7,10 +7,12 @@ import javax.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
+import org.springframework.stereotype.Repository;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
 import com.michiget.todaygye.beans.UserInfo;
 
+@Repository
 public class InsertDao extends SqlMapClientDaoSupport {
 
 	static Logger logger = LoggerFactory.getLogger(InsertDao.class);

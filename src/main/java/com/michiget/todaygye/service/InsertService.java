@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +15,7 @@ import com.michiget.todaygye.beans.UserInfo;
 import com.michiget.todaygye.controller.InsertController;
 import com.michiget.todaygye.model.InsertDao;
 
+@Service
 public class InsertService implements InsertController {
 
 	private static final Logger logger = LoggerFactory
@@ -29,7 +31,7 @@ public class InsertService implements InsertController {
 
 		request.setCharacterEncoding("UTF-8");
 
-		logger.info("È¸¿ø°¡ÀÔDBÁ¢¼Ó ÆäÀÌÁö");
+		logger.info("È¸ï¿½ï¿½ï¿½ï¿½DBï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		logger.info("TodayGyeService : " + userInfo.getId());
 		logger.info("TodayGyeService : " + userInfo.getNick());
 
