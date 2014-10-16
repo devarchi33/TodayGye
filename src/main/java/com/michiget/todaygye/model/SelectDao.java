@@ -1,11 +1,10 @@
 package com.michiget.todaygye.model;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import javax.annotation.Resource;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.stereotype.Repository;
 
@@ -13,17 +12,15 @@ import com.ibatis.sqlmap.client.SqlMapClient;
 import com.michiget.todaygye.beans.UserInfo;
 
 @Repository
-public class InsertDao extends SqlMapClientDaoSupport {
-
-	static Logger logger = LoggerFactory.getLogger(InsertDao.class);
-
+public class SelectDao extends SqlMapClientDaoSupport {
 	@Resource(name = "sqlMapClient")
 	public void setSuperSqlMapClient(SqlMapClient sqlMapClient) {
 		super.setSqlMapClient(sqlMapClient);
 	}
-	
-	public void insertMember(UserInfo userInfo) throws SQLException {
-		logger.info("member join");
-		getSqlMapClient().insert("insertMember", userInfo);
+
+	@SuppressWarnings("unchecked")
+	public ArrayList<UserInfo> getMemberList(int page) throws SQLException {
+		return (ArrayList<UserInfo>) getSqlMapClient().queryForList(
+				"getMemberList", null, page, 8);
 	}
 }

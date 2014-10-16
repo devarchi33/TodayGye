@@ -24,5 +24,10 @@
 			<li><input class="btn btn-primary" type="submit" value="로그아웃" /></li>
 		</ul>
 	</form>
+	<form action="/todaygye/memberlist" method="get">
+		<ul>
+			<li><input class="btn btn-primary" type="submit" value="회원리스트" /></li>
+		</ul>
+	</form>
 </body>
 </html>

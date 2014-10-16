@@ -7,5 +7,6 @@
  <!-- Common -->
  <sqlMap resource="com/michiget/config/SqlMapLogin.xml"/>
  <sqlMap resource="com/michiget/config/SqlMapInsert.xml"/>
+ <sqlMap resource="com/michiget/config/SqlMapSelect.xml"/>
  
 </sqlMapConfig>

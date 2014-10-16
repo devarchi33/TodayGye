@@ -1,16 +1,12 @@
 package com.michiget.todaygye.beans;
 
-import java.util.Date;
-
-import org.springframework.web.multipart.MultipartFile;
-
 public class UserInfo {
 
 	@Override
 	public String toString() {
 		return "UserInfo [id=" + id + ", name=" + nick + ", gender=" + gender
 				+ ", email=" + email1 + email2 + ", regDate=" + regDate
-				+ ", regIp=" + regIp + ", content=" + content + "]";
+				+ ", regIp=" + regIp + "]";
 	}
 
 	private int idx;
@@ -22,7 +18,6 @@ public class UserInfo {
 	private String email2;
 	private String regDate;
 	private String regIp;
-	private String content;
 
 	public int getIdx() {
 		return idx;
@@ -95,13 +90,4 @@ public class UserInfo {
 	public void setRegIp(String regIp) {
 		this.regIp = regIp;
 	}
-
-	public String getContent() {
-		return content;
-	}
-
-	public void setContent(String content) {
-		this.content = content;
-	}
-
 }

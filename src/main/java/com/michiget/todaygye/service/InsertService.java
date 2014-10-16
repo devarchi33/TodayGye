@@ -32,14 +32,15 @@ public class InsertService implements InsertController {
 		request.setCharacterEncoding("UTF-8");
 
 		logger.info("ȸ����DB���� ������");
-		logger.info("TodayGyeService : " + userInfo.getId());
-		logger.info("TodayGyeService : " + userInfo.getNick());
+		logger.info("TodayGyeService Idx : " + userInfo.getIdx());
+		logger.info("TodayGyeService Id: " + userInfo.getId());
+		logger.info("TodayGyeService Nick: " + userInfo.getNick());
 
 		userInfo.setRegIp(request.getRemoteAddr());
+		logger.info("TodayGyeService : " + userInfo.getRegIp());
 		insertDao.insertMember(userInfo);
 
 		return new ModelAndView("redirect:");
-
 	}
 
 }

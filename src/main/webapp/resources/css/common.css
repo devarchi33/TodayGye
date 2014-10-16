@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+th,td {
+	text-align: center;
+}
+ul {
+	list-style: none;	
+}
+
+address {
+	padding: 20px 20px 0 0;
+	float: right;
+}
+
+#footer {
+	clear: both;	
+}
+
+#menu {
+	padding: 10px 5px 0 5px;
+	height: 35px;
+}
+	#menu li {
+		float: left;
+	}
+
+#page {
+	clear: both;
+	width: 270px;
+	margin: auto;
+}
+
+.btn-group {
+	margin-right: 10px;
+	float: right;
+}
