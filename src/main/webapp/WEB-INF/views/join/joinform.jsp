@@ -10,7 +10,7 @@
 </head>
 <body>
 	<form action="/todaygye/joinsite" name="joinForm" method="POST"
-		enctype="multipart/form-data" onsubmit="return joinFormCheck();">
+		onsubmit="return joinFormCheck();">
 		<table border="1" cellspacing="0" width="500" height="400"
 			align="center">
 			<caption>글쓰기</caption>
