@@ -23,14 +23,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>TodayGye - MemberList</title>
 
-<!-- 합쳐지고 최소화된 최신 CSS -->
-<link rel="stylesheet"
-	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
+
 <!-- 공통 CSS -->
 <link rel="stylesheet" type="text/css" href="resources/css/common.css" />
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-	src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
