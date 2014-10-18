@@ -26,32 +26,32 @@ body {
 		<![endif]-->
 
 <!-- Fav and touch icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144"
-	href="resources/assets/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114"
-	href="resources/assets/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72"
-	href="resources/assets/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed"
-	href="resources/assets/ico/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="resources/assets/ico/favicon.png">
-
-<!-- Le javascript
-		================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="resources/assets/js/jquery.js"></script>
-<script src="resources/assets/js/bootstrap-transition.js"></script>
-<script src="resources/assets/js/bootstrap-alert.js"></script>
-<script src="resources/assets/js/bootstrap-modal.js"></script>
-<script src="resources/assets/js/bootstrap-dropdown.js"></script>
-<script src="resources/assets/js/bootstrap-scrollspy.js"></script>
-<script src="resources/assets/js/bootstrap-tab.js"></script>
-<script src="resources/assets/js/bootstrap-tooltip.js"></script>
-<script src="resources/assets/js/bootstrap-popover.js"></script>
-<script src="resources/assets/js/bootstrap-button.js"></script>
-<script src="resources/assets/js/bootstrap-collapse.js"></script>
-<script src="resources/assets/js/bootstrap-carousel.js"></script>
-<script src="resources/assets/js/bootstrap-typeahead.js"></script>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="resources/assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+		href="resources/assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"
+		href="resources/assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed"
+		href="resources/assets/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="resources/assets/ico/favicon.png">
+	
+	<!-- Le javascript
+			================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="resources/assets/js/jquery.js"></script>
+	<script src="resources/assets/js/bootstrap-transition.js"></script>
+	<script src="resources/assets/js/bootstrap-alert.js"></script>
+	<script src="resources/assets/js/bootstrap-modal.js"></script>
+	<script src="resources/assets/js/bootstrap-dropdown.js"></script>
+	<script src="resources/assets/js/bootstrap-scrollspy.js"></script>
+	<script src="resources/assets/js/bootstrap-tab.js"></script>
+	<script src="resources/assets/js/bootstrap-tooltip.js"></script>
+	<script src="resources/assets/js/bootstrap-popover.js"></script>
+	<script src="resources/assets/js/bootstrap-button.js"></script>
+	<script src="resources/assets/js/bootstrap-collapse.js"></script>
+	<script src="resources/assets/js/bootstrap-carousel.js"></script>
+	<script src="resources/assets/js/bootstrap-typeahead.js"></script>
 </head>
 
 <body>
@@ -63,7 +63,7 @@ body {
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="brand" href="#">Project name</a>
+				<a class="brand" href="/todaygye">TodayGye</a>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li class="active"><a href="#">Home</a></li>

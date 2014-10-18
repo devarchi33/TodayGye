@@ -15,7 +15,7 @@
 	rel="stylesheet" />
 <link href="http://fonts.googleapis.com/css?family=Sansita+One"
 	rel="stylesheet" />
-	
+
 <title>TodayGye - loginForm</title>
 </head>
 <body>
@@ -50,7 +50,6 @@
 				<ul>
 					<li><input class="btn btn-primary btn-lg" type="submit"
 						value="로그인" /></li>
-					<li><a class="btn btn-primary btn-lg" href="/todaygye">홈으로</a></li>
 				</ul>
 			</form>
 		</div>
