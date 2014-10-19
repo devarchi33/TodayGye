@@ -10,8 +10,8 @@
 <title>TodayGye - Footer</title>
 </head>
 <body>
-	<!-- footer-wrapper -->
-	<div class="footer-wrapper">
+	<footer class="footer-wrapper">
+		<!-- footer-wrapper -->
 		<div class="container">
 			<div class="row">
 				<div class="span3">
@@ -58,38 +58,38 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- //footer-wrapper -->
-	<!-- footer-bottom-wrapper -->
-	<div class="footer-bottom-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="span6">
-					<address>Copyright ⓒ 2014 Michiget All rights reserved</address>
-				</div>
-				<div class="span6">
-					<ul class="inline pull-right">
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">소개</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">도움말</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">블로그</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">추천글</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">광고</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">이용약관</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">개인정보</a></li>
-						<li><a href="#" rel="tooltip" data-placement="top"
-							data-original-title="준비중입니다.">우선심사</a></li>
-					</ul>
+		<!-- //footer-wrapper -->
+		<!-- footer-bottom-wrapper -->
+		<div class="footer-bottom-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="span6">
+						<address>Copyright ⓒ 2014 Michiget All rights reserved</address>
+					</div>
+					<div class="span6">
+						<ul class="inline pull-right">
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">소개</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">도움말</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">블로그</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">추천글</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">광고</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">이용약관</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">개인정보</a></li>
+							<li><a href="#" rel="tooltip" data-placement="top"
+								data-original-title="준비중입니다.">우선심사</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- footer-bottom-wrapper -->
+		<!-- footer-bottom-wrapper -->
+	</footer>
 </body>
 </html>
