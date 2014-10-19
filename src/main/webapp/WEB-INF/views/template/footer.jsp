@@ -8,10 +8,14 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <style type="text/css">
+
 footer.footer-wrapper {
 	background: #454A52;
 	color: #ddd;
 	margin-top: : 15px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .footer-bottom-wrapper {
@@ -67,23 +71,22 @@ footer .span9 h4 {
 address {
 	padding-top: 10px;
 }
-
 </style>
 <title>TodayGye - Footer</title>
 </head>
 <body>
 	<footer class="footer-wrapper">
 		<!-- footer-wrapper -->
-		<div class="container">
+		<div class="container collapse" id="michiget">
 			<div class="row">
 				<div class="span3">
 					<h3>
 						<i class="icon-star"></i> TodayGye
 					</h3>
 					<h4>TodayGye, 비즈니스의 시작!!</h4>
-					<p>TodayGye는 텍스트, 이미지, 소리파일 등을 이용한 프로필과 웹 포트폴리오를 통해 사업 가,
-						프리랜서, 직장인, 학생, 구인/구직자가 온라인에서 나의 커리어를 노출시켜 보다 성공적인 비즈니스를 돕는 새로운 소셜
-						네트워킹 플랫폼입니다.</p>
+					<p>TodayGye는 텍스트, 이미지, 소리파일 등을 이용한 프로필과 웹 포트폴리오를 통해 사업 가, 프리랜서,
+						직장인, 학생, 구인/구직자가 온라인에서 나의 커리어를 노출시켜 보다 성공적인 비즈니스를 돕는 새로운 소셜 네트워킹
+						플랫폼입니다.</p>
 				</div>
 				<div class="span9">
 					<h4 class="hidden-phone">TodayGye는 다양한 분야의 창의적인 사람들과의 네트워킹과
@@ -143,8 +146,8 @@ address {
 								data-original-title="준비중입니다.">이용약관</a></li>
 							<li><a href="#" rel="tooltip" data-placement="top"
 								data-original-title="준비중입니다.">개인정보</a></li>
-							<li><a href="#" rel="tooltip" data-placement="top"
-								data-original-title="준비중입니다.">우선심사</a></li>
+							<li><button class="btn btn-danger pull-right" type="button"
+									data-toggle="collapse" data-target="#michiget">more</button></li>
 						</ul>
 					</div>
 				</div>
