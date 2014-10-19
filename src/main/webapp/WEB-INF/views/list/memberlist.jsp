@@ -25,6 +25,9 @@
 <meta name="author" content="">
 <!-- formChech 자바스크립트 -->
 <script type="text/javascript" src="resources/js/formCheck.js"></script>
+<style type="text/css">
+
+</style>
 <title>TodayGye - MemberList</title>
 </head>
 
@@ -77,8 +80,8 @@
 		<!-- container end -->
 		<!-- footer -->
 		<div id="footer">
-			<div id="page">
-				<ul class="pagination">
+			<div id="page"  class="pagination pagination-large pagination-centered">
+				<ul>
 					<c:if test="${page > 0}">
 						<li class=""><a href="/todaygye/memberlist?page=${page-8}">이전페이지</a></li>
 					</c:if>
