@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <!-- 리스트의 사이즈 조사를 위한 태그 -->
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <!-- 소수점처리 위한 태그 -->
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page import="com.michiget.todaygye.beans.*"%>
 <%@ page session="true"%>
 <%
@@ -30,8 +29,8 @@
 </head>
 
 <body>
-	<!-- wrap -->
-	<div id="wrap">
+	<!-- container -->
+	<div class="container">
 		<!-- header -->
 		<div id="header">
 			<div class="page-header">
@@ -98,10 +97,9 @@
 					</c:if>
 				</ul>
 			</div>
-			<address>Copyright ⓒ 2014 Iruentech All rights reserved</address>
 		</div>
 		<!-- footer end -->
 	</div>
-	<!-- wrap -->
+	<!-- container -->
 </body>
 </html>
