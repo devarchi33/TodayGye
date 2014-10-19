@@ -7,6 +7,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
+<style type="text/css">
+footer.footer-wrapper {
+	background: #454A52;
+	color: #ddd;
+	margin-top: : 15px;
+}
+
+.footer-bottom-wrapper {
+	background: #3B3F46;
+	line-height: 40px;
+	border-top: 1px solid #888;
+}
+
+footer .span3 p {
+	text-align: justify;
+	line-height: 25px;
+}
+
+footer .span9 h4 {
+	text-align: justify;
+	line-height: 30px;
+}
+
+.footer-nav li {
+	position: relative;
+	line-height: 30px;
+}
+
+.footer-nav li:after {
+	content: '';
+	border: 0;
+	border-top: 1px solid #34393f;
+	border-bottom: 1px solid #62676d;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.stat span {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.share li {
+	line-height: 35px;
+}
+
+.header-wrapper a,.footer-wrapper a {
+	color: #ddd;
+}
+
+.header-wrapper a:hover,.footer-wrapper a:hover {
+	color: #08c;
+}
+
+address {
+	padding-top: 10px;
+}
+
+</style>
 <title>TodayGye - Footer</title>
 </head>
 <body>
@@ -16,42 +78,41 @@
 			<div class="row">
 				<div class="span3">
 					<h3>
-						<i class="icon-twitter"></i>TodayGye
+						<i class="icon-star"></i> TodayGye
 					</h3>
-					<h4>커리어 네트워킹, 비즈니스의 시작!!</h4>
-					<p>Bookstrap은 텍슽, 이비지, 소리파일 등을 이용한 프로필과 웹 포트폴리오를 통해 사업 가, 프리랜서,
-						직장인, 학생, 구인/구직자가 온라인에서 나의 커리어를 노출시켜 보다 성공적인 비즈니스를 돕는 새로운 소셜 네트워킹
-						플랫폼입니다.</p>
+					<h4>TodayGye, 비즈니스의 시작!!</h4>
+					<p>TodayGye는 텍스트, 이미지, 소리파일 등을 이용한 프로필과 웹 포트폴리오를 통해 사업 가,
+						프리랜서, 직장인, 학생, 구인/구직자가 온라인에서 나의 커리어를 노출시켜 보다 성공적인 비즈니스를 돕는 새로운 소셜
+						네트워킹 플랫폼입니다.</p>
 				</div>
 				<div class="span9">
-					<h4 class="hidden-phone">Bookstrap은 다양한 분야의 창의적인 사람들과의 네트워킹과
-						비즈니 스가 이루어지는 공간이자 커뮤니케이션 그 자체 입니다.</h4>
+					<h4 class="hidden-phone">TodayGye는 다양한 분야의 창의적인 사람들과의 네트워킹과
+						비즈니스가 이루어지는 공간이자 커뮤니케이션 그 자체 입니다.</h4>
 					<div class="row">
 						<div class="span3">
 							<ul class="unstyled footer-nav">
-								<li><i class="icon-caret-right"></i><a href="#">갤러리</a></li>
-								<li><i class="icon-caret-right"></i><a href="#">랭킹</a></li>
-								<li><i class="icon-caret-right"></i><a href="#">이벤트</a></li>
-								<li><i class="icon-caret-right"></i><a href="#">블로그</a></li>
-								<li><i class="icon-caret-right"></i><a href="#">포트폴리오</a></li>
+								<li><i class="icon-hand-right"></i><a href="#"> 갤러리</a></li>
+								<li><i class="icon-hand-right"></i><a href="#"> 랭킹</a></li>
+								<li><i class="icon-hand-right"></i><a href="#"> 이벤트</a></li>
+								<li><i class="icon-hand-right"></i><a href="#"> 블로그</a></li>
+								<li><i class="icon-hand-right"></i><a href="#"> 포트폴리오</a></li>
 							</ul>
 						</div>
 						<div class="span3">
 							<ul class="stat unstyled">
-								<li>Bookstrap을 사용하는 사람들</li>
+								<li>TodayGye를 이용하는 사람들</li>
 								<li><span>1,497,772</span></li>
-								<li>게시된 포트폴리오</li>
+								<li>게시된 계모임</li>
 								<li><span>2,358,962</span></li>
-								<li>거래된 아이템</li>
+								<li>거래된 계</li>
 								<li><span>1,278,360</span></li>
 							</ul>
 						</div>
 						<div class="span3">
 							<ul class="share unstyled">
-								<li><i class="icon-envelope"></i><a href="#">블로그 구독하기</a></li>
-								<li><i class="icon-facebook-sign"></i><a href="#">페이스북에서
-										팬되기</a></li>
-								<li><i class="icon-twitter"></i><a href="#">트위터에서 팔로우하기</a></li>
+								<li><i class="icon-envelope"></i><a href="#"> 블로그 구독하기</a></li>
+								<li><i class="icon-pencil"></i><a href="#"> 페이스북에서 팬되기</a></li>
+								<li><i class="icon-star"></i><a href="#"> 트위터에서 팔로우하기</a></li>
 							</ul>
 						</div>
 					</div>
