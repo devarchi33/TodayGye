@@ -169,8 +169,10 @@ li {
 						</td>
 					</tr>
 				</table>
-				<input class="btn" type="submit" value="가입하기" />&nbsp;&nbsp; <input
-					class="btn" type="reset" value="다시하기" />
+				<div class="modal-footer">
+					<input class="btn btn-primary" type="submit" value="가입하기" />&nbsp;&nbsp; <input
+						class="btn btn-primary" type="reset" value="다시하기" />
+				</div>
 			</form>
 		</div>
 	</div>
