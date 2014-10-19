@@ -91,5 +91,15 @@
 		</div>
 		<!-- footer-bottom-wrapper -->
 	</footer>
+	<script>
+		$(function() {
+			$('[rel=tooltip]').tooltip({
+				delay : {
+					show : 10,
+					hide : 100
+				}
+			});
+		});
+	</script>
 </body>
 </html>
