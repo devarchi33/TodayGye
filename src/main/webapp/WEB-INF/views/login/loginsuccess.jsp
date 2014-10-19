@@ -12,7 +12,8 @@
 <title>TodayGye - loginsuccess</title>
 </head>
 <body>
-	<p>loginsuccess</p>
+	<div class="container">
+	<h1>loginsuccess</h1>
 	<form action="/todaygye/logout" method="get"
 		onsubmit="return logout();">
 		<ul>
@@ -24,5 +25,6 @@
 			<li><input class="btn btn-primary" type="submit" value="회원리스트" /></li>
 		</ul>
 	</form>
+	</div>
 </body>
 </html>

@@ -26,16 +26,16 @@ body {
 		<![endif]-->
 
 <!-- Fav and touch icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144"
-		href="resources/assets/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114"
-		href="resources/assets/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72"
-		href="resources/assets/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed"
-		href="resources/assets/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="resources/assets/ico/favicon.png">
-	
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="resources/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="resources/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="resources/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="resources/assets/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="resources/assets/ico/favicon.png">
+
 </head>
 
 <body>
@@ -54,7 +54,7 @@ body {
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							data-toggle="dropdown">Menu <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Action</a></li>
 								<li><a href="#">Another action</a></li>
@@ -66,14 +66,56 @@ body {
 							</ul></li>
 					</ul>
 					<form class="navbar-form pull-right">
-						<input class="span2" type="text" placeholder="Email"> <input
-							class="span2" type="password" placeholder="Password">
-						<button type="submit" class="btn">Sign in</button>
+						<input class="span2" type="text" placeholder="Search">
+						<button type="submit" class="btn">Search</button>
+						<a href="#login" class="btn" role="button" data-toggle="modal">login</a>
 					</form>
 				</div>
 				<!--/.nav-collapse -->
 			</div>
 		</div>
+	</div>
+
+	<!-- Modal -->
+	<div id="login" class="modal hide fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button class="close" type="button" data-dismiss="modal"
+				aria-hidden="true">x</button>
+			<h3 id="myModalLabel">Login</h3>
+		</div>
+		<div class="modal-body">
+			<form action="/todaygye/login" method="POST"
+				onsubmit="return formCheck();">
+				<table>
+
+					<tr>
+						<th>
+							<div class="input-group">
+								<span class="input-group-addon">@</span> <input
+									class="form-control" placeholder="Username" type="text"
+									name="loginId" size="20">
+							</div>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<div class="input-group">
+								<span class="input-group-addon">@</span> <input
+									class="form-control" placeholder="Password" size="20"
+									name="pass" type="password">
+							</div>
+						</th>
+					</tr>
+
+				</table>
+				<ul>
+					<li><input class="btn btn-primary btn-lg" type="submit"
+						value="login" /></li>
+				</ul>
+			</form>
+		</div>
+		<div class="modal-footer"></div>
 	</div>
 </body>
 </html>

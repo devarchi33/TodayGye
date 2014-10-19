@@ -13,14 +13,16 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>Hello world!</h1>
+	<div class="container">
+		<h1>Hello world!</h1>
 
-	<P>The time on the server is ${serverTime}.</P>
-	<form action="/todaygye/loginform" method="get">
-		<ul>
-			<li><input class="btn btn-primary" type="submit" value="로그인" /></li>
-			<li><a class="btn btn-primary" href="/todaygye/joinform">회원가입</a></li>
-		</ul>
-	</form>
+		<P>The time on the server is ${serverTime}.</P>
+		<form action="/todaygye/loginform" method="get">
+			<ul>
+				<li><input class="btn btn-primary" type="submit" value="로그인" /></li>
+				<li><a class="btn btn-primary" href="/todaygye/joinform">회원가입</a></li>
+			</ul>
+		</form>
+	</div>
 </body>
 </html>
