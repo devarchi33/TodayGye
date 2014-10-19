@@ -16,6 +16,10 @@ body {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
+
+li {
+	list-style: none;
+}
 </style>
 <link href="resources/assets/css/bootstrap-responsive.css"
 	rel="stylesheet">
@@ -36,6 +40,8 @@ body {
 	href="resources/assets/ico/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="resources/assets/ico/favicon.png">
 
+<!-- formChech 자바스크립트 -->
+<script type="text/javascript" src="resources/js/formCheck.js"></script>
 </head>
 
 <body>
@@ -68,7 +74,9 @@ body {
 					<form class="navbar-form pull-right">
 						<input class="span2" type="text" placeholder="Search">
 						<button type="submit" class="btn">Search</button>
-						<a href="#login" class="btn" role="button" data-toggle="modal">login</a>
+						<a href="#join" class="btn" role="button" data-toggle="modal">Join</a>
+						<a href="#login" class="btn" role="button" data-toggle="modal">Login</a>
+						<a href="/todaygye/logout" class="btn" role="button">Logout</a>
 					</form>
 				</div>
 				<!--/.nav-collapse -->
@@ -76,7 +84,7 @@ body {
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- 로그인 -->
 	<div id="login" class="modal hide fade" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-header">
@@ -115,7 +123,56 @@ body {
 				</ul>
 			</form>
 		</div>
-		<div class="modal-footer"></div>
+	</div>
+	<!-- 회원가입 -->
+	<div id="join" class="modal hide fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button class="close" type="button" data-dismiss="modal"
+				aria-hidden="true">x</button>
+			<h3 id="myModalLabel">Join</h3>
+		</div>
+		<div class="modal-body">
+			<form action="/todaygye/joinsite" name="joinForm" method="POST"
+				onsubmit="return joinFormCheck();">
+				<table border="1" cellspacing="0" width="500" height="400"
+					align="center">
+					<tr height="35">
+						<th width="120">아이디</th>
+						<td>&nbsp;&nbsp;<input type="text" name="id" /></td>
+					</tr>
+					<tr height="35">
+						<th width="120">비밀번호</th>
+						<td>&nbsp;&nbsp;<input type="password" name="pass" /></td>
+					</tr>
+					<tr height="35">
+						<th width="120">대화명</th>
+						<td>&nbsp;&nbsp;<input type="text" size="" name="nick" /></td>
+					</tr>
+					<tr height="35">
+						<th>성별</th>
+						<td>&nbsp;&nbsp;<input type="radio" name="gender" value="남자"
+							checked="checked" />남자 <input type="radio" name="gender"
+							value="여자" />여자
+						</td>
+					</tr>
+					<tr height="35">
+						<th>이메일</th>
+						<td>&nbsp;&nbsp;<input type="text" class="span1"
+							name="email1" />@ <input type="text" class="span2" name="email2" />&nbsp;
+							<select name="email3" onchange="mail_sel()" class="span1">
+								<option value="">직접입력</option>
+								<option value="hanmail.net">hanmail.net</option>
+								<option value="naver.com">naver.com</option>
+								<option value="nate.com">nate.com</option>
+						</select>
+						</td>
+					</tr>
+				</table>
+				<input class="btn" type="submit" value="가입하기" />&nbsp;&nbsp; <input
+					class="btn" type="reset" value="다시하기" />
+			</form>
+		</div>
 	</div>
 </body>
 </html>

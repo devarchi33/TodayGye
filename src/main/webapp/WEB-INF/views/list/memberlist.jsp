@@ -17,16 +17,16 @@
 		System.out.println("list.jsp : Session invalidated!!");
 %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- formChech 자바스크립트 -->
+<script type="text/javascript" src="resources/js/formCheck.js"></script>
 <title>TodayGye - MemberList</title>
-
-
-<!-- 공통 CSS -->
-<link rel="stylesheet" type="text/css" href="resources/css/common.css" />
-
 </head>
 
 <body>
@@ -34,11 +34,6 @@
 	<div id="wrap">
 		<!-- header -->
 		<div id="header">
-			<ul id="menu" class="breadcrumb">
-				<li><a href="/todaygye/joinsite">회원가입</a></li>
-				<li><a href="/todaygye/logout">로그아웃</a></li>
-			</ul>
-
 			<div class="page-header">
 				<h1>
 					회원 리스트&nbsp;&nbsp;<small>현재 "<%=loginId%>"님으로 로그인 하셨습니다.
