@@ -7,71 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<style type="text/css">
-
-footer.footer-wrapper {
-	background: #454A52;
-	color: #ddd;
-	margin-top: : 15px;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-.footer-bottom-wrapper {
-	background: #3B3F46;
-	line-height: 40px;
-	border-top: 1px solid #888;
-}
-
-footer .span3 p {
-	text-align: justify;
-	line-height: 25px;
-}
-
-footer .span9 h4 {
-	text-align: justify;
-	line-height: 30px;
-}
-
-.footer-nav li {
-	position: relative;
-	line-height: 30px;
-}
-
-.footer-nav li:after {
-	content: '';
-	border: 0;
-	border-top: 1px solid #34393f;
-	border-bottom: 1px solid #62676d;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-}
-
-.stat span {
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: bold;
-}
-
-.share li {
-	line-height: 35px;
-}
-
-.header-wrapper a,.footer-wrapper a {
-	color: #ddd;
-}
-
-.header-wrapper a:hover,.footer-wrapper a:hover {
-	color: #08c;
-}
-
-address {
-	padding-top: 10px;
-}
-</style>
+<link href="resources/css/footer.css" rel="stylesheet">
 <title>TodayGye - Footer</title>
 </head>
 <body>
