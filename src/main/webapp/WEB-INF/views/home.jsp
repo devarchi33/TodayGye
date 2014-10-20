@@ -27,7 +27,7 @@
 						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Hello TodayGye!</h1>
+							<h2>Hello TodayGye!</h2>
 							<P>The time on the server is ${serverTime}.</P>
 							<form action="/todaygye/loginform" method="get">
 								<ul>
@@ -43,7 +43,7 @@
 						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Hello TodayGye!</h1>
+							<h2>Hello TodayGye!</h2>
 							<P>The time on the server is ${serverTime}.</P>
 							<form action="/todaygye/loginform" method="get">
 								<ul>
@@ -59,7 +59,7 @@
 						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Hello TodayGye!</h1>
+							<h2>Hello TodayGye!</h2>
 							<P>The time on the server is ${serverTime}.</P>
 							<form action="/todaygye/loginform" method="get">
 								<ul>
