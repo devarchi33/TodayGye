@@ -114,7 +114,7 @@
 		<div class="row">
 			<div class="span6">
 				<img class="img-circle" src="resources/images/todaygye (2).jpg" alt="todaygye" />
-				<h2>Gye1</h2>
+				<h2>Gye4</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
@@ -126,7 +126,7 @@
 		
 			<div class="span6">
 				<img class="img-circle" src="resources/images/todaygye (4).jpg" alt="todaygye" />
-				<h2>Gye3</h2>
+				<h2>Gye5</h2>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
 					egestas eget quam. Vestibulum id ligula porta felis euismod semper.
 					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
@@ -139,7 +139,7 @@
 		<div class="row">
 			<div class="span3">
 				<img class="img-circle" src="resources/images/todaygye (2).jpg" alt="todaygye" />
-				<h2>Gye1</h2>
+				<h2>Gye6</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
@@ -150,7 +150,7 @@
 			</div>
 			<div class="span6">
 				<img class="img-circle" src="resources/images/todaygye (3).jpg" alt="todaygye" />
-				<h2>Gye2</h2>
+				<h2>Gye7</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
@@ -161,7 +161,7 @@
 			</div>
 			<div class="span3">
 				<img class="img-circle" src="resources/images/todaygye (4).jpg" alt="todaygye" />
-				<h2>Gye3</h2>
+				<h2>Gye8</h2>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
 					egestas eget quam. Vestibulum id ligula porta felis euismod semper.
 					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
