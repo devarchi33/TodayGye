@@ -8,6 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link href="resources/css/footer.css" rel="stylesheet">
+<script type="text/javascript" src="resources/js/footer.js"></script>
 <title>TodayGye - Footer</title>
 </head>
 <body>
@@ -92,15 +93,5 @@
 		</div>
 		<!-- footer-bottom-wrapper -->
 	</footer>
-	<script>
-		$(function() {
-			$('[rel=tooltip]').tooltip({
-				delay : {
-					show : 10,
-					hide : 100
-				}
-			});
-		});
-	</script>
 </body>
 </html>
