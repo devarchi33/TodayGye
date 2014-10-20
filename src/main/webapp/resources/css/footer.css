@@ -10,6 +10,7 @@ footer.footer-wrapper {
 }
 
 .footer-bottom-wrapper {
+	height:40px;
 	background: #3B3F46;
 	line-height: 40px;
 	border-top: 1px solid #888;
