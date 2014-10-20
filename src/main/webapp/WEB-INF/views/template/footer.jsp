@@ -13,7 +13,7 @@ footer.footer-wrapper {
 	background: #454A52;
 	color: #ddd;
 	margin-top: : 15px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 }
