@@ -82,8 +82,9 @@
 								data-original-title="준비중입니다.">이용약관</a></li>
 							<li><a href="#" rel="tooltip" data-placement="top"
 								data-original-title="준비중입니다.">개인정보</a></li>
-							<li><button class="btn btn-danger pull-right" type="button"
-									data-toggle="collapse" data-target="#michiget">more</button></li>
+							<li><a class="btn btn-danger btn-small pull-right" type="button"
+								rel="tooltip" data-placement="top" data-original-title="상세보기입니다."
+								data-toggle="collapse" data-target="#michiget">more</a></li>
 						</ul>
 					</div>
 				</div>

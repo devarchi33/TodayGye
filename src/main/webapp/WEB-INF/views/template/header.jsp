@@ -4,14 +4,14 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Bootstrap, from Twitter - Donghoon's practice site1</title>
+<title>TodayGye - header</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <!-- Le styles -->
 <link href="resources/assets/css/bootstrap.css" rel="stylesheet">
-<link href="resources/css/header.css" rel="stylesheet">x
+<link href="resources/css/header.css" rel="stylesheet">
 <link href="resources/assets/css/bootstrap-responsive.css"
 	rel="stylesheet">
 
