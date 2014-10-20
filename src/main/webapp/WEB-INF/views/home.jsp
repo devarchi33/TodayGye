@@ -23,8 +23,8 @@
 			<!-- Carousel items -->
 			<div class="carousel-inner">
 				<div class="active item">
-					<img class="img-circle" src="resources/images/gumran1.png"
-						alt="금계란첩1" />
+					<img class="img-circle" src="resources/images/todaygye (1).jpg"
+						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Hello TodayGye!</h1>
@@ -39,8 +39,8 @@
 					</div>
 				</div>
 				<div class="item">
-					<img class="img-circle" src="resources/images/gumran2.png"
-						alt="금계란첩2" />
+					<img class="img-circle" src="resources/images/todaygye (5).jpg"
+						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Hello TodayGye!</h1>
@@ -55,8 +55,8 @@
 					</div>
 				</div>
 				<div class="item">
-					<img class="img-circle" src="resources/images/gumran3.png"
-						alt="금란계첩3" />
+					<img class="img-circle" src="resources/images/todaygye (6).jpg"
+						alt="todaygye_logo" />
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Hello TodayGye!</h1>
@@ -78,8 +78,8 @@
 		</div>
 		<div class="row">
 			<div class="span4">
-				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
-				<h2>Heading1</h2>
+				<img class="img-circle" src="resources/images/todaygye (2).jpg" alt="todaygye" />
+				<h2>Gye1</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
@@ -89,8 +89,8 @@
 				</p>
 			</div>
 			<div class="span4">
-				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
-				<h2>Heading2</h2>
+				<img class="img-circle" src="resources/images/todaygye (3).jpg" alt="todaygye" />
+				<h2>Gye2</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
@@ -100,8 +100,8 @@
 				</p>
 			</div>
 			<div class="span4">
-				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
-				<h2>Heading3</h2>
+				<img class="img-circle" src="resources/images/todaygye (4).jpg" alt="todaygye" />
+				<h2>Gye3</h2>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
 					egestas eget quam. Vestibulum id ligula porta felis euismod semper.
 					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum

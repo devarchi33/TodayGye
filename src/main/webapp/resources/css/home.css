@@ -1,15 +1,15 @@
 @CHARSET "UTF-8";
 
 .item > img {
-	height: 600px;
-	width: 800px;
+	height: 550px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
 .span4 > img {
 	margin-left: 70px;
-	height: 180px;
-	width: 180px;
+	height: 170px;
+	width: 170px;
 }
 
 h1 {
