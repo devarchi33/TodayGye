@@ -11,16 +11,7 @@
 
 <!-- Le styles -->
 <link href="resources/assets/css/bootstrap.css" rel="stylesheet">
-<style type="text/css">
-body {
-	padding-top: 60px;
-	padding-bottom: 40px;
-}
-
-li {
-	list-style: none;
-}
-</style>
+<link href="resources/css/header.css" rel="stylesheet">x
 <link href="resources/assets/css/bootstrap-responsive.css"
 	rel="stylesheet">
 
