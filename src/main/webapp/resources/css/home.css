@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+.item > img {
+	height: 600px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.span4 > img {
+	margin-left: 70px;
+	height: 180px;
+	width: 180px;
+}
+
+h1 {
+	color: #fff;
+}

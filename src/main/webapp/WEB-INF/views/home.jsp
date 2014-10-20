@@ -7,17 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<style type="text/css">
-img {
-	height: 600px;
-	width: 800px;
-	margin: 0 auto;
-}
-
-h1 {
-	color: #fff;
-}
-</style>
+<link rel="stylesheet" href="resources/css/home.css" />
 <!-- formChech 자바스크립트 -->
 <script type="text/javascript" src="resources/js/formCheck.js"></script>
 <title>Home</title>
@@ -88,6 +78,7 @@ h1 {
 		</div>
 		<div class="row">
 			<div class="span4">
+				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
 				<h2>Heading1</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
@@ -98,6 +89,7 @@ h1 {
 				</p>
 			</div>
 			<div class="span4">
+				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
 				<h2>Heading2</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce
 					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
@@ -108,6 +100,7 @@ h1 {
 				</p>
 			</div>
 			<div class="span4">
+				<img class="img-circle" src="resources/images/sample.jpg" alt="" />
 				<h2>Heading3</h2>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
 					egestas eget quam. Vestibulum id ligula porta felis euismod semper.
