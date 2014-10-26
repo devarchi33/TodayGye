@@ -10,7 +10,7 @@ import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.stereotype.Repository;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
-import com.michiget.todaygye.beans.UserInfo;
+import com.michiget.todaygye.beans.UserInfo2;
 
 @Repository
 public class InsertDao extends SqlMapClientDaoSupport {
@@ -21,9 +21,9 @@ public class InsertDao extends SqlMapClientDaoSupport {
 	public void setSuperSqlMapClient(SqlMapClient sqlMapClient) {
 		super.setSqlMapClient(sqlMapClient);
 	}
-	
-	public void insertMember(UserInfo userInfo) throws SQLException {
+
+	public void insertMember(UserInfo2 userInfo2) throws SQLException {
 		logger.info("member join");
-		getSqlMapClient().insert("insertMember", userInfo);
+		getSqlMapClient().insert("insertMember", userInfo2);
 	}
 }

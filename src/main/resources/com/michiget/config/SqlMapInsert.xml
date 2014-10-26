@@ -7,14 +7,14 @@
 	<typeAlias alias="map" type="java.util.Map" />
 	<typeAlias alias="str" type="java.lang.String" />
 	<typeAlias alias="int" type="java.lang.Integer" />
-	<typeAlias alias="userInfo" type="com.michiget.todaygye.beans.UserInfo" />
+	<typeAlias alias="userInfo2" type="com.michiget.todaygye.beans.UserInfo2" />
 
-	<insert id="insertMember" parameterClass="userInfo"> 
+	<insert id="insertMember" parameterClass="userInfo2"> 
 	<![CDATA[
-		INSERT INTO MEMBER
-			 (IDX, ID, PASS, NICK, EMAIL1, EMAIL2, GENDER, REGDATE, REGIP)
+		INSERT INTO USERINFO2
+			 (IDX, NAME, USERID, PASS, PASSQUESTION, PASSREPLY, EMAIL1, EMAIL2, PHONE1, PHONE2, PHONE3, WIREAGENCY, SELLPHONE1, SELLPHONE2, SELLPHONE3, ZIPCODE1, ZIPCODE2, ADDRESS1, ADDRESS2, USERGRADE, BANK, ACCOUNT, REGIP, REGDATE)
 		 VALUES 
-			 (member_seq.nextval, #id#, #pass#, #nick#, #email1#, #email2#, #gender#, sysdate, #regIp#)
+			 (SEQ_USERINFO2_IDX.nextval, #NAME#, #USERID#, #PASS#, #PASSQUESTION#, #PASSREPLY#, #EMAIL1#, #EMAIL2#, #PHONE1#, #PHONE2#, #PHONE3#, #WIREAGENCY#, #SELLPHONE1#, #SELLPHONE2#, #SELLPHONE3#, #ZIPCODE1#, #ZIPCODE2#, #ADDRESS1#, #ADDRESS2#, #USERGRADE#, #BANK#, #ACCOUNT#, #REGIP#, #REGDATE#)
 	]]>
 	</insert>
 

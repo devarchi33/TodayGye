@@ -3,9 +3,9 @@
 <%@ page import="com.michiget.todaygye.beans.*"%>
 <%@ page session="true"%>
 <%
-	UserInfo userInfo = (UserInfo) session.getAttribute("userInfo");
+	UserInfo2 userInfo2 = (UserInfo2) session.getAttribute("userInfo");
 	String loginId = session.getAttribute("loginId").toString();
-	if (userInfo != null && loginId != null)
+	if (userInfo2 != null && loginId != null)
 		System.out.println("list.jsp : Session ok!!");
 	else
 		System.out.println("list.jsp : Session invalidated!!");

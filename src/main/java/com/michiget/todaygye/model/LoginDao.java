@@ -10,7 +10,7 @@ import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.stereotype.Repository;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
-import com.michiget.todaygye.beans.UserInfo;
+import com.michiget.todaygye.beans.UserInfo2;
 
 @Repository
 public class LoginDao extends SqlMapClientDaoSupport {
@@ -22,8 +22,8 @@ public class LoginDao extends SqlMapClientDaoSupport {
 		super.setSqlMapClient(sqlMapClient);
 	}
 
-	public UserInfo getLoginId(String id) throws SQLException {
-		return (UserInfo) getSqlMapClient().queryForObject("getLoginId", id);
+	public UserInfo2 getLoginId(String id) throws SQLException {
+		return (UserInfo2) getSqlMapClient().queryForObject("getLoginId", id);
 	}
 
 }

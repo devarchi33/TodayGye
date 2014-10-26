@@ -8,9 +8,9 @@
 <%@ page import="com.michiget.todaygye.beans.*"%>
 <%@ page session="true"%>
 <%
-	UserInfo userInfo = (UserInfo) session.getAttribute("userInfo");
+	UserInfo2 userInfo2 = (UserInfo2) session.getAttribute("userInfo");
 	String loginId = session.getAttribute("loginId").toString();
-	if (userInfo != null && loginId != null)
+	if (userInfo2 != null && loginId != null)
 		System.out.println("list.jsp : Session ok!!");
 	else
 		System.out.println("list.jsp : Session invalidated!!");
@@ -55,7 +55,7 @@
 						<th>번호</th>
 						<th>아이디</th>
 						<th>대화명</th>
-						<th>성별</th>
+						<th>통신사</th>
 						<th>이메일</th>
 						<th>ip</th>
 						<th>가입일</th>
@@ -64,13 +64,13 @@
 				<c:forEach items="${userList }" var="userList">
 					<tbody>
 						<tr>
-							<td>${userList.idx }</td>
-							<td class="success">${userList.id }</td>
-							<td>${userList.nick }</td>
-							<td>${userList.gender }</td>
-							<td>${userList.email1 }@${userList.email2 }</td>
-							<td>${userList.regIp }</td>
-							<td>${userList.regDate }</td>
+							<td>${userList.IDX }</td>
+							<td class="success">${userList.USERID }</td>
+							<td>${userList.NAME }</td>
+							<td>${userList.WIREAGENCY }</td>
+							<td>${userList.EMAIL1 }@${userList.EMAIL2 }</td>
+							<td>${userList.REGIP }</td>
+							<td>${userList.REGDATE }</td>
 						</tr>
 					</tbody>
 				</c:forEach>

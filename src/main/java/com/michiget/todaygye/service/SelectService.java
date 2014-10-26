@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.michiget.todaygye.beans.UserInfo;
+import com.michiget.todaygye.beans.UserInfo2;
 import com.michiget.todaygye.controller.SelectController;
 import com.michiget.todaygye.model.SelectDao;
 
@@ -28,7 +28,7 @@ public class SelectService implements SelectController {
 	@RequestMapping("/memberlist")
 	public ModelAndView memberListAction(HttpServletRequest request)
 			throws Exception {
-		logger.info("회원리스트 조회");
+		logger.info("memberlist page!!");
 
 		int page = 0;
 
@@ -36,7 +36,7 @@ public class SelectService implements SelectController {
 			page = Integer.parseInt(request.getParameter("page"));
 		}
 
-		ArrayList<UserInfo> userList = selectDao.getMemberList(page);
+		ArrayList<UserInfo2> userList = selectDao.getMemberList(page);
 		ModelAndView mav = new ModelAndView("list/memberlist.tiles");
 		mav.addObject("userList", userList);
 		mav.addObject("page", page);
